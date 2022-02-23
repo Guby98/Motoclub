@@ -21,7 +21,7 @@ a{
 }
 
 .listaDesordenada{
-    margin: 2px 10px 15px 40px;
+    margin: 2px 10px 15px 50px;
     padding: 10px 5px 5px 5px;
     margin: 0 auto;
     width: 100%;
@@ -101,6 +101,8 @@ img{
 
 }
 
+
+
 .separateTitle{
     font-size: 160%;
     font-weight: 300;
@@ -153,7 +155,7 @@ a[href="contacto.html"]{
 
 .boxmodel{
     padding: 5px;
-    margin: 2px 2px 2px 5px;
+    margin: 2px 2px 2px 20px;
     border: black hidden;
     
     
