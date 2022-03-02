@@ -27,10 +27,7 @@ a{
     width: 100%;
     list-style-type:none;
     border: color black 2px;
-    text-align: right;
-    position: relative;
     transition: all 0.5s;
-
 }
 
 .item1:hover{
@@ -114,18 +111,12 @@ img{
 p{
     text-align: justify;
     font-weight: 100;
-    
 }
-.footerMargin{
-    margin-top: 10vh;
-    margin-right: 10px;
-    word-spacing: 1px;
-    color: white;
+
+.footerclass{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 a[href="https://www.facebook.com/Moto-Club-la-22-192386834149147/"]
@@ -155,19 +146,19 @@ a[href="contacto.html"]{
 
 .boxmodel{
     padding: 5px;
-    margin: 2px 2px 2px 20px;
+    margin: 2px 2px 2px 40px;
     border: black hidden;
-    
-    
+    transition: transform 0.3s;
+}
 
+.boxmodel:hover{
+    transform: scale(1.1);
 }
 
 .boxModelTitle{
     color: white;
     margin: 5px 5px 20px 5px;
     padding: 10px 10px 10px 10px;
-    
-
 }
 
 h1{
@@ -267,7 +258,7 @@ h3{
 
 .piletaGaleria{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -283,6 +274,8 @@ h3{
     flex-wrap: wrap;
 }
 
+
+
 @media (max-width: 768px){
     header img {
         background-color: #161616;
@@ -297,8 +290,9 @@ h3{
     }
 
     nav{
-        width: 110%;
+        width: 100%;
         font-size: 60%;
+        text-align: center;
     }
 
     iframe{
@@ -311,6 +305,15 @@ h3{
         justify-content: center;
         text-decoration: solid;
     }
+
+    .btn{
+        font-size: 67%;
+    }
 }
 
+@media (max-width: 1000px) {
+    .boxmodel:hover{
+        transform: scale(1.0);
+    }
+}
 
